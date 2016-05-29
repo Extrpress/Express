@@ -1,7 +1,6 @@
 var aurl = apphost+"/index.php?g=logistics&m=logistics&a=add";
 $(function(){
 	$("#submit").click(function(event){
-		console.log(12);
 		$.post(aurl,
 		{
 			uid:3,
@@ -9,7 +8,10 @@ $(function(){
 			lname: $("#send_to_name").val(),
 			lphone: $("#send_to_phone").val(),
 			lweight: $("#weight").val(),
-			lremark: $("#Remark").val()
+			lremark: $("#Remark").val(),
+			uaddress: $("#send_from_address").val(),
+			uname: $("#send_from_name").val(),
+			uphone: $("#send_from_phone").val(),
 		},
 		function(data){
 			if (data.success) {
