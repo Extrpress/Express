@@ -108,11 +108,4 @@
             return false;
         }  
     });  
-    regEvent(document.getElementById("button"),"click",function(e){
-        if(index!==0){
-            e.preventDefault();
-            alert("您的输入有误，请检查并重新输入！");
-            return false;
-        }  
-    });  
 })();

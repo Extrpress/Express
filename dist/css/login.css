@@ -26,6 +26,7 @@
 
 .forget {
   width: 100%;
+  margin-top: 20px;
   text-align: right; }
   .forget a {
     text-decoration: none; }
