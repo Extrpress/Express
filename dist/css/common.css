@@ -85,7 +85,7 @@ input[type=button],
 .number,
 .time {
   display: inline-block;
-  width: 50%; }
+  width: 49%; }
 
 .time,
 .msge {
