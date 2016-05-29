@@ -35,7 +35,7 @@
                 break;
             case "send_from_address":
             case "send_to_address":
-                flag=/^\S{6,16}$/.test(value.replace(/[\u0391-\uFFE5]/g,"nn"));
+                flag=/^[a-zA-Z0-9\u4e00-\u9fa5]+$/.test(value.replace(/[\u0391-\uFFE5]/g,"nn"));
                 id="address";
                 break;
             case "password":
