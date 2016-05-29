@@ -1,0 +1,21 @@
+[ 2016-05-28T12:01:06+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004015s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\kuaidi\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-28T12:01:42+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002539s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\kuaidi\application\Common\Controller\AppframeController.class.php 第 24 行.
+
+[ 2016-05-28T21:13:11+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.045203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046900s ]
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\kuaidi\application\Common\Controller\AppframeController.class.php 第 24 行.
+

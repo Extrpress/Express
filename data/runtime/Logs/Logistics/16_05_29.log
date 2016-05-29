@@ -1,0 +1,221 @@
+[ 2016-05-29T11:14:13+08:00 ] 127.0.0.1 /dist/127.0.0.1/index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002047s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005066s ]
+ERR: 无法加载控制器:Dist
+
+[ 2016-05-29T11:14:48+08:00 ] 127.0.0.1 /dist/127.0.0.1/index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+ERR: 无法加载控制器:Dist
+
+[ 2016-05-29T11:16:04+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002600s ]
+
+[ 2016-05-29T11:16:56+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002183s ]
+
+[ 2016-05-29T11:17:33+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+
+[ 2016-05-29T11:18:59+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002827s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0451s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: email D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004330s ]
+
+[ 2016-05-29T11:20:03+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002528s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: password D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 21 行.
+NOTIC: [8] Undefined index: email D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002558s ]
+
+[ 2016-05-29T11:25:16+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002509s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0165s ]
+NOTIC: [8] Undefined index: email D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003247s ]
+
+[ 2016-05-29T11:28:21+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0176s ]
+NOTIC: [8] Undefined index: phone D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 22 行.
+NOTIC: [8] Undefined index: email D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003884s ]
+
+[ 2016-05-29T11:30:49+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003087s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: email D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002024s ]
+
+[ 2016-05-29T11:34:33+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined index: email D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2016-05-29T11:35:17+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003785s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0172s ]
+NOTIC: [8] Undefined index: email D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003861s ]
+
+[ 2016-05-29T11:37:54+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002998s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0162s ]
+SQL: INSERT INTO `kd_user` (`username`,`phone`,`email`) VALUES ('llolo','12345678901','1@1.com') [ RunTime:0.0005s ]
+
+[ 2016-05-29T11:38:15+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0187s ]
+SQL: INSERT INTO `kd_user` (`username`,`phone`,`email`) VALUES ('llolo','12345678901','1@1.com') [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003639s ]
+
+[ 2016-05-29T11:40:03+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002538s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0170s ]
+SQL: INSERT INTO `kd_user` (`username`,`phone`,`email`) VALUES ('llolo','12345678901','1@1.com') [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003909s ]
+
+[ 2016-05-29T11:41:10+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0128s ]
+SQL: INSERT INTO `kd_user` (`username`,`phone`,`email`) VALUES ('llolo','12345678901','1@1.com') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2016-05-29T11:43:05+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0144s ]
+SQL: INSERT INTO `kd_user` (`username`,`phone`,`email`) VALUES ('ccnuccnu','12345678901','12@1.com') [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2016-05-29T11:45:59+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002409s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0084s ]
+SQL: INSERT INTO `kd_user` (`username`,`phone`,`email`) VALUES ('liudeyin','13012345678','1@1.com') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2016-05-29T11:47:57+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002429s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0159s ]
+SQL: INSERT INTO `kd_user` (`username`,`password`,`phone`,`email`) VALUES ('liudeyin','e10adc3949ba59abbe56e057f20f883e','13012345678','1@1.com') [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003894s ]
+
+[ 2016-05-29T11:52:55+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002471s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: phone D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 22 行.
+NOTIC: [8] Undefined index: useremail D:\phpStudy\WWW\kuaidi\application\Logistics\Controller\UserController.class.php 第 23 行.
+ERR: 1048:Column 'phone' cannot be null
+ [ SQL语句 ] : INSERT INTO `kd_user` (`username`,`password`,`phone`,`email`) VALUES ('','d41d8cd98f00b204e9800998ecf8427e',NULL,NULL)
+ERR: 1048:Column 'phone' cannot be null
+ [ SQL语句 ] : INSERT INTO `kd_user` (`username`,`password`,`phone`,`email`) VALUES ('','d41d8cd98f00b204e9800998ecf8427e',NULL,NULL)
+
+[ 2016-05-29T11:53:38+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002380s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `kd_user` WHERE `username` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e'  [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003901s ]
+
+[ 2016-05-29T11:55:13+08:00 ] 127.0.0.1 /index.php?g=logistics&m=user&a=do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002989s ]
+SQL: SHOW COLUMNS FROM `kd_user` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `kd_user` WHERE `username` = 'liudeyin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001812s ]
+
