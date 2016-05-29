@@ -1,0 +1,16 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   application/Logistics/Controller/LogisticsController.class.php
+#	modified:   data/runtime/Logs/Logistics/16_05_29.log
+#	modified:   dist/js/send_ajax.js
+#	modified:   dist/send.html
+#
+# Changes not staged for commit:
+#	deleted:    data/runtime/Cache/Portal/b38d1014a632cf5d5e26dc69ef89f859.php
+#
+

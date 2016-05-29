@@ -5,7 +5,7 @@ use Common\Controller\HomebaseController;
 /**
 * 
 */
-class PackageController extends HomebaseController{
+class LogisticsController extends HomebaseController{
 	
 	private $Package;
 	private $Transfer;
@@ -14,7 +14,7 @@ class PackageController extends HomebaseController{
 	function _initialize() {
 		parent::_initialize();
 		//$this->Package =D("Package");
-		$this->Transfer =M("Transfer");
+		$this->Transfer =D("Transfer");
 		$this->Logistics =M("Logistics");
 	}
 
@@ -22,28 +22,34 @@ class PackageController extends HomebaseController{
 		$condition = array();
 		$condition['uid'] = $_POST['uid'];
 		$condition['uname'] = $_POST['uname'];
-		$condition['uaddress'] = $_POST['address'];
+		$condition['uaddress'] = $_POST['uaddress'];
 		$condition['uphone'] = $_POST['uphone'];
-		$condition['pname'] = $_POST['pname'];
-		$condition['pphone'] = $_POST['pphone'];
-		$condition['paddress'] = $_POST['paddress'];
-		$condition['weight'] = $_POST['weight'];
+		$condition['lname'] = $_POST['lname'];
+		$condition['lphone'] = $_POST['lphone'];
+		$condition['laddress'] = $_POST['laddress'];
+		$condition['lweight'] = $_POST['lweight'];
+		$condition['lremark'] = $_POST['lremark'];
 		$condition['lcode'] = date("YmdHis",time()).$condition['uid'];
-		$result = $this->Logistics->add();
+		$condition['timex'] = date("Y-m-d",time());
+		$result = $this->Logistics->add($condition);
+		//var_dump($result);exit();
 		if ($result) {
-			$tis->data['success'] = true;
+			$this->data['success'] = true;
 		}
 		else{
 			$this->data['success'] = false;
 		}
+		//var_dump($this->data);exit();
 		echo json_encode($this->data);
 	}
 
 	function logisticsInfo(){
 		$condition = array();
-		$condition['uid'] = $_POST['uid'];
+		$condition['uid'] = 3;
+		//$condition['uid'] = $_POST['uid'];
 		$logis = D("Logistics");
-		$result = $logis->where($condition)->select();
+		$result = $logis->field("lcode,uname,uaddress,timex")->where($condition)->select();
+		//var_dump($logis->getLastSql());
 		if ($result) {
 			$this->data['success'] = true;
 			$this->data['info'] = $result;

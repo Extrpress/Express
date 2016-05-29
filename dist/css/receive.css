@@ -1,8 +1,10 @@
 .receive_cont {
   width: 400px;
-  margin: 50px auto 0;
+  margin: 20px auto 0;
   height: 300px; }
   .receive_cont .list {
+    position: relative;
+    line-height: 20px;
     box-sizing: border-box;
     padding: 10px;
     border: 1px solid #ddeafb;
@@ -10,8 +12,10 @@
     border-radius: 5px; }
     .receive_cont .list .number,
     .receive_cont .list .send_people,
-    .receive_cont .list .from {
-      line-height: 20px; }
+    .receive_cont .list .from,
+     .receive_cont .list .msge
+     {
+      padding: 3px 0; }
     .receive_cont .list .lable {
-      width: 70px;
+      width: 100px;
       text-align: right; }

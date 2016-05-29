@@ -20,3 +20,10 @@ INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002822s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.004820s ]
 ERR: 无法加载控制器:Dist
 
+[ 2016-05-29T17:00:35+08:00 ] 127.0.0.1 /dist/url
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005153s ]
+ERR: 无法加载控制器:Dist
+

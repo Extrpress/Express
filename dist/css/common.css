@@ -53,6 +53,8 @@ input[type=button],
   border: 0; }
 
 .lable {
+  box-sizing: border-box;
+  padding-right: 10px;
   display: inline-block; }
 
 .nav {
@@ -81,12 +83,13 @@ input[type=button],
 .nav_right {
   padding-right: 20px;
   text-align: right; }
-
-.number,
 .time {
-  display: inline-block;
-  width: 49%; }
-
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  color:gray;
+  opacity: 0.5;
+}
 .time,
 .msge {
   text-align: right; }
