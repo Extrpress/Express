@@ -3,7 +3,7 @@
             user_name:{hint:"⚠️请输入3-12个字符的用户名（包括字母/数字/下划线）",right:"√用户名格式正确",wrong:"×用户名格式有误，请重新输入"},
             name:{hint:"⚠️请输入3-12姓名",right:"√姓名输入正确",wrong:"×姓名输入有误，请重新输入"},
             address:{hint:"⚠️请输入正确地址",right:"√地址输入正确",wrong:"×地址输入有误，请重新输入"},
-            weight:{hint:"⚠️请输入物品质量",right:"√物品质量已输入输入",wrong:"×物品质量输入有误，请重新输入"},
+            weight:{hint:"⚠️请输入物品质量(单位:Kg)",right:"√物品质量已输入",wrong:"×物品质量输入有误，请重新输入"},
             phone:{hint:"⚠️请输入11位电话号码",right:"√电话号码输入正确",wrong:"×电话号码输入有误，请重新输入"},
             id_card:{hint:"⚠️请输入18位身份证号码",right:"√身份证号码输入正确",wrong:"×身份证号码输入有误，请重新输入"},
             password:{hint:"⚠️请输入6位以上密码",right:"√密码格式正确",wrong:"×请输入符合格式的密码"},
@@ -68,7 +68,7 @@
                 flag=/^\S{18}$/.test(value);
                 break;
             case "weight":
-                flag=/^\d{1,4}$/.test(value);
+                flag=/[-+]?[0-9]*\.?[0-9]+/.test(value);
                 break;
             default:
                 break;
@@ -105,7 +105,7 @@
             alert(index)
             e.preventDefault();
             alert("您的输入有误，请检查并重新输入！");
-            return false;
         }  
-    });  
+    });
+    return false;  
 })();
