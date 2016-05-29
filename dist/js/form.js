@@ -100,7 +100,7 @@
             });
         })(j)
     }
-    if(document.getElementById("submit")){
+    if(document.getElementById("button")){
         regEvent(document.getElementById("button"),"click",function(e){
             alert(1)
             if(index!==0){
@@ -109,8 +109,8 @@
                 return false;
             }  
         }); 
-    } 
-    if(document.getElementById("button")){
+    }
+    if(document.getElementById("submit")){
         regEvent(document.getElementById("submit"),"click",function(e){
             alert(1)
             if(index!==0){
@@ -118,6 +118,6 @@
                 alert("您的输入有误，请检查并重新输入！");
                 return false;
             }  
-    }); 
+        }); 
     }
 })();
