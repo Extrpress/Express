@@ -5,3 +5,10 @@ INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002151s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.004602s ]
 NOTIC: [8] Undefined index: url D:\phpStudy\WWW\kuaidi\application\Common\Controller\AppframeController.class.php 第 24 行.
 
+[ 2016-05-29T14:41:07+08:00 ] 127.0.0.1 /index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006282s ]
+NOTIC: [8] Undefined index: url C:\Users\HP-PC\Documents\GitHub\Express\application\Common\Controller\AppframeController.class.php 第 24 行.
+
