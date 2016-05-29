@@ -42,8 +42,7 @@ input {
 .hint_wrong {
   color: #EA5A70; }
 
-input[type=submit],
-input[type=button]，
+input[type=button],
 .button {
   display: block;
   margin: 0 auto;
