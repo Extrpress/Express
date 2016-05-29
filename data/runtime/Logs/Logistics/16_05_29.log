@@ -226,3 +226,13 @@ INFO: Run Behavior\CheckLangBehavior [ RunTime:0.009692s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.011319s ]
 ERR: 无法加载控制器:Logistics
 
+[ 2016-05-29T16:01:22+08:00 ] 127.0.0.1 /index.php?g=logistics&m=logistics&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003683s ]
+ERR: 无法加载控制器:Logistics
+
+[ 2016-05-29T16:02:00+08:00 ] 127.0.0.1 /index.php?g=logistics&m=logistics&a=add
+ERR: 无法加载控制器:Logistics
+

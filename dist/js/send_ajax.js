@@ -1,6 +1,7 @@
 var aurl = apphost+"/index.php?g=logistics&m=logistics&a=add";
 $(function(){
 	$("#submit").click(function(event){
+		console.log(12);
 		$.post(aurl,
 		{
 			uid:3,
